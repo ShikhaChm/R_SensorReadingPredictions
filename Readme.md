@@ -1,3 +1,4 @@
 Wireless sensor networks are increasingly being deployed to measure temperature, humidity, and light and to detect motion, fires, and landslides,among many other events of interest. Sensors are often operated on a battery and hence we often face a trade-off between acquiring frequent sensor readings versus maximizing their battery life. The biggest drainer of the battery is "communication." That is, sensors consume the most battery power not when they sense the environment but when they communicate their readings to a central server.
+
 In this project, we train models of the sensor readings at a central server, and the central server will contact wireless sensors infrequently, to save battery. The central server will use actual readings of the sensors when it can obtain them, and it will use its own predictions when it can't obtain the readings.
 To see experimental results of four different models used in this project please refer to the report in the report folder.
